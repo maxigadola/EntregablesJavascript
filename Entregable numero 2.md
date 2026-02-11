@@ -1,6 +1,6 @@
 Entregable 2: Productos de Florería 
 
-Este proyecto permite la compra de ramos de flores usando JavaScript, con las siguientes funcionalidades:
+Este proyecto permite la compra de ramos de flores usando JS, con las siguientes funcionalidades:
 
 Agregar ramos al carrito de compras.
 
