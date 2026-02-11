@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ramos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tienda de Ramos 🌻</h1>
+    
+    <div id="filtro">
+        <span>Filtrar ramo:</span>
+        <button class="btn-filtro" data-categoria="todos">Todos los ramos</button>
+        <button class="btn-filtro" data-categoria="aniversario">Aniversario</button>
+        <button class="btn-filtro" data-categoria="cumpleaños">Cumpleaños</button>
+        <button class="btn-filtro" data-categoria="bodas">Bodas</button>
+        <button class="btn-filtro" data-categoria="primavera">Primavera</button>
+        <button class="btn-filtro" data-categoria="condolencias">Condolencias</button>
+        <button class="btn-filtro" data-categoria="graduacion">Graduación</button>
+        <button class="btn-filtro" data-categoria="amistad">Amistad</button>
+        <button class="btn-filtro" data-categoria="tematicos">Temáticos</button>
+        <button class="btn-filtro" data-categoria="lujo">Lujo</button>
+        <button class="btn-filtro" data-categoria="ofertas">Ofertas</button>
+    </div>
+
+    <h2>Ramos:</h2>
+    <div class="catalogos" id="catalogo"></div>
+    <div class="comprarCarrito">
+        <h2>Carrito de compras 🛒</h2>
+    <ul class="listaDeCompra" id="listaCarrito"></ul>
+    <p class="total">Total: <span id="totalCarrito">0</span></p>
+    </div>
+    
+
+    <h3>Ingrese sus datos para continuar con la compra</h3>
+    <h4 id="mensajeDeAgradecimiento"></h4>
+
+    <form class="pedidoForm"id="formPedido">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="number" name="telefono" id="telefono">
+
+        <label for="tipoDeEnvio">Tipo de envío:</label>
+        <select name="tipoDeEnvio" id="tipoDeEnvio">
+            <option value="">Seleccionar tipo de envío</option>
+            <option value="local">Retiro en el local</option>
+            <option value="domicilio">Envío a domicilio</option>
+        </select>
+
+        <input type="submit" value="Realizar pedido" id="botonCompra">
+    </form>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>

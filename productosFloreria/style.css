@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.catalogos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card{
+    width: 220px;
+    padding: 16px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.card button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background: #e91e63;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #c2185b;
+}
+h3{
+    font-size: 30px;
+    margin: 5px;
+}
+.pedidoForm{
+    margin: 20px;
+    padding: 20px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.comprarCarrito{
+    margin: 20px;
+    padding: 5px;
+}
+.total {
+    font-size:30px ;
+    font-weight: 800;
+
+}
+.listaDeCompra li{
+    
+    font-size: 30px;
+    
+}
+
+.pedidoForm label,input,select{
+    width: 250px;
+    font-size: 20px;
+
+}
+.aprobado {
+    color: green;
+}
+
+.rechazado {
+    color: red;
+}
