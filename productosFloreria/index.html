@@ -38,13 +38,13 @@
 
     <form class="pedidoForm"id="formPedido">
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
 
         <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido">
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
 
         <label for="telefono">Teléfono:</label>
-        <input type="number" name="telefono" id="telefono">
+        <input type="tel" maxlength="10"  placeholder="Ingrese su número de telefono"name="telefono" id="telefono">
 
         <label for="tipoDeEnvio">Tipo de envío:</label>
         <select name="tipoDeEnvio" id="tipoDeEnvio">
@@ -56,6 +56,9 @@
         <input type="submit" value="Realizar pedido" id="botonCompra">
     </form>
     
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script type="module" src="main.js"></script>
 </body>
 </html>
