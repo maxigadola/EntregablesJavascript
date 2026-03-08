@@ -1,4 +1,4 @@
-<h1>🌸 Flower Shop Cart</h1>
+<h1>Floreria Tienda 🌹</h1>
 
 <p>
 Aplicación web desarrollada en <strong>JavaScript, HTML y CSS</strong> que simula el carrito de compras de una florería.
@@ -11,6 +11,7 @@ Permite seleccionar ramos de flores, agregarlos al carrito, gestionar cantidades
 <li>Mostrar productos agregados dinámicamente en el DOM</li>
 <li>Calcular el precio según la cantidad</li>
 <li>Eliminar productos del carrito</li>
+<li>Filtar ramos por categoria</li>
 <li>Persistencia de datos usando <strong>Local Storage</strong></li>
 <li>Interfaz simple e interactiva</li>
 </ul>
