@@ -13,6 +13,7 @@ Permite seleccionar ramos de flores, agregarlos al carrito, gestionar cantidades
 <li>Eliminar productos del carrito</li>
 <li>Filtar ramos por categoria</li>
 <li>Persistencia de datos usando <strong>Local Storage</strong></li>
+<li>Alertas interactivas con SweetAlert2</li>
 <li>Interfaz simple e interactiva</li>
 </ul>
 
@@ -22,6 +23,7 @@ Permite seleccionar ramos de flores, agregarlos al carrito, gestionar cantidades
 <li>CSS3</li>
 <li>JavaScript</li>
 <li>Local Storage</li>
+<li>SweetAlert2</li>
 </ul>
 
 <h2>📚 Conceptos aplicados</h2>
@@ -30,6 +32,7 @@ Permite seleccionar ramos de flores, agregarlos al carrito, gestionar cantidades
 <li>Eventos en JavaScript (click, change)</li>
 <li>Uso de arrays y objetos</li>
 <li>Persistencia de datos en el navegador</li>
+<li>Uso de librerías externas para mejorar la experiencia de usuario</li>
 </ul>
 
 <h2>🎯 Objetivo del proyecto</h2>
